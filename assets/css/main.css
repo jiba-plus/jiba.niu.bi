@@ -104,9 +104,6 @@ article sup {
   color: #fff;
 }
 ol {padding-left: 1em;font-size: .875em;color:#878b99;font-weight: 300;}
-@media (orientation : portrait) {
-  
-}
 @media only screen and (max-width:750px){
   article {padding:.4rem;}
   h1 {margin:0;}
@@ -124,6 +121,14 @@ ol {padding-left: 1em;font-size: .875em;color:#878b99;font-weight: 300;}
     box-shadow: 0 -10px 10px rgba(0,0,0,.1);
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio:3){
-  
+@media (orientation : landscape) and (max-height: 420px) {
+  article {padding-bottom: .8rem;}
+  .action {padding: .1rem .4rem;}
+  .btn-redirect {
+    font-size: .24rem;
+    line-height: .48rem;
+    max-width: 3.75rem;
+    margin: 0 auto;
+    border-width: 2px;
+  }
 }
