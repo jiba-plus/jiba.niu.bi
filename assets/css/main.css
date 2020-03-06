@@ -70,6 +70,7 @@ article {margin: 0 auto;max-width: 750px;}
 article p {
   letter-spacing: 2px;font-weight: 300;line-height: 1.5;text-align: justify;
 }
+article p:last-child {text-align: right;font-size: .875em;line-height: 1.2;}
 article sup {
   font-weight: 700;letter-spacing: normal;font-size: .66em;margin-right: 2px;
 }
